@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace National_Microchip_Registry
+namespace NationalMicrochipRegistry
 {
     /// <summary>
     /// Interaction logic for App.xaml

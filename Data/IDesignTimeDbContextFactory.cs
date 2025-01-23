@@ -1,9 +1,9 @@
-﻿using MicrochipRegistry.Models;
+﻿using NationalMicrochipRegistry.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using System;
 
-namespace National_Microchip_Registry.Data
+namespace NationalMicrochipRegistry.Data
 {
     public class DesignTimeRegistryDbContextFactory
         : IDesignTimeDbContextFactory<RegistryDbContext>

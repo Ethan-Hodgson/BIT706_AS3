@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace MicrochipRegistry.Models
+namespace NationalMicrochipRegistry.Models
 {
     public class RegistryDbContext : DbContext
     {
@@ -18,10 +18,16 @@ namespace MicrochipRegistry.Models
         {
             base.OnModelCreating(modelBuilder);
 
-            // Example: Make Microchip.Code a unique index
+            // Make Microchip.Code a unique index
             modelBuilder.Entity<Microchip>()
                 .HasIndex(m => m.Code)
                 .IsUnique();
+
+            // Configure the Animal -> Microchip as 1-to-1 (if applicable)
+            modelBuilder.Entity<Animal>()
+                .HasOne(a => a.Microchip)
+                .WithOne(m => m.Animal)
+                .HasForeignKey<Animal>(a => a.MicrochipId);
         }
     }
 }
