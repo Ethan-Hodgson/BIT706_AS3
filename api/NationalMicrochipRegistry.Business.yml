@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Business
+  commentId: N:NationalMicrochipRegistry.Business
+  id: NationalMicrochipRegistry.Business
+  children:
+  - NationalMicrochipRegistry.Business.AnimalService
+  - NationalMicrochipRegistry.Business.ClinicService
+  - NationalMicrochipRegistry.Business.IAnimalService
+  - NationalMicrochipRegistry.Business.IClinicService
+  - NationalMicrochipRegistry.Business.IMicrochipService
+  - NationalMicrochipRegistry.Business.IUserService
+  - NationalMicrochipRegistry.Business.MicrochipService
+  - NationalMicrochipRegistry.Business.UserService
+  langs:
+  - csharp
+  - vb
+  name: NationalMicrochipRegistry.Business
+  nameWithType: NationalMicrochipRegistry.Business
+  fullName: NationalMicrochipRegistry.Business
+  type: Namespace
+  assemblies:
+  - NationalMicrochipRegistry
+references:
+- uid: NationalMicrochipRegistry.Business.AnimalService
+  commentId: T:NationalMicrochipRegistry.Business.AnimalService
+  name: AnimalService
+  nameWithType: AnimalService
+  fullName: NationalMicrochipRegistry.Business.AnimalService
+- uid: NationalMicrochipRegistry.Business.ClinicService
+  commentId: T:NationalMicrochipRegistry.Business.ClinicService
+  name: ClinicService
+  nameWithType: ClinicService
+  fullName: NationalMicrochipRegistry.Business.ClinicService
+- uid: NationalMicrochipRegistry.Business.IAnimalService
+  commentId: T:NationalMicrochipRegistry.Business.IAnimalService
+  parent: NationalMicrochipRegistry.Business
+  name: IAnimalService
+  nameWithType: IAnimalService
+  fullName: NationalMicrochipRegistry.Business.IAnimalService
+- uid: NationalMicrochipRegistry.Business.IClinicService
+  commentId: T:NationalMicrochipRegistry.Business.IClinicService
+  parent: NationalMicrochipRegistry.Business
+  name: IClinicService
+  nameWithType: IClinicService
+  fullName: NationalMicrochipRegistry.Business.IClinicService
+- uid: NationalMicrochipRegistry.Business.IMicrochipService
+  commentId: T:NationalMicrochipRegistry.Business.IMicrochipService
+  parent: NationalMicrochipRegistry.Business
+  name: IMicrochipService
+  nameWithType: IMicrochipService
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService
+- uid: NationalMicrochipRegistry.Business.IUserService
+  commentId: T:NationalMicrochipRegistry.Business.IUserService
+  parent: NationalMicrochipRegistry.Business
+  name: IUserService
+  nameWithType: IUserService
+  fullName: NationalMicrochipRegistry.Business.IUserService
+- uid: NationalMicrochipRegistry.Business.MicrochipService
+  commentId: T:NationalMicrochipRegistry.Business.MicrochipService
+  name: MicrochipService
+  nameWithType: MicrochipService
+  fullName: NationalMicrochipRegistry.Business.MicrochipService
+- uid: NationalMicrochipRegistry.Business.UserService
+  commentId: T:NationalMicrochipRegistry.Business.UserService
+  name: UserService
+  nameWithType: UserService
+  fullName: NationalMicrochipRegistry.Business.UserService
+- uid: NationalMicrochipRegistry.Business
+  commentId: N:NationalMicrochipRegistry.Business
+  name: NationalMicrochipRegistry.Business
+  nameWithType: NationalMicrochipRegistry.Business
+  fullName: NationalMicrochipRegistry.Business

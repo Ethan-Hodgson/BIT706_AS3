@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Models
+  commentId: N:NationalMicrochipRegistry.Models
+  id: NationalMicrochipRegistry.Models
+  children:
+  - NationalMicrochipRegistry.Models.Animal
+  - NationalMicrochipRegistry.Models.Clinic
+  - NationalMicrochipRegistry.Models.Microchip
+  - NationalMicrochipRegistry.Models.RegistryDbContext
+  - NationalMicrochipRegistry.Models.User
+  - NationalMicrochipRegistry.Models.UserRole
+  langs:
+  - csharp
+  - vb
+  name: NationalMicrochipRegistry.Models
+  nameWithType: NationalMicrochipRegistry.Models
+  fullName: NationalMicrochipRegistry.Models
+  type: Namespace
+  assemblies:
+  - NationalMicrochipRegistry
+references:
+- uid: NationalMicrochipRegistry.Models.RegistryDbContext
+  commentId: T:NationalMicrochipRegistry.Models.RegistryDbContext
+  parent: NationalMicrochipRegistry.Models
+  name: RegistryDbContext
+  nameWithType: RegistryDbContext
+  fullName: NationalMicrochipRegistry.Models.RegistryDbContext
+- uid: NationalMicrochipRegistry.Models.Animal
+  commentId: T:NationalMicrochipRegistry.Models.Animal
+  parent: NationalMicrochipRegistry.Models
+  name: Animal
+  nameWithType: Animal
+  fullName: NationalMicrochipRegistry.Models.Animal
+- uid: NationalMicrochipRegistry.Models.Clinic
+  commentId: T:NationalMicrochipRegistry.Models.Clinic
+  parent: NationalMicrochipRegistry.Models
+  name: Clinic
+  nameWithType: Clinic
+  fullName: NationalMicrochipRegistry.Models.Clinic
+- uid: NationalMicrochipRegistry.Models.Microchip
+  commentId: T:NationalMicrochipRegistry.Models.Microchip
+  parent: NationalMicrochipRegistry.Models
+  name: Microchip
+  nameWithType: Microchip
+  fullName: NationalMicrochipRegistry.Models.Microchip
+- uid: NationalMicrochipRegistry.Models.UserRole
+  commentId: T:NationalMicrochipRegistry.Models.UserRole
+  parent: NationalMicrochipRegistry.Models
+  name: UserRole
+  nameWithType: UserRole
+  fullName: NationalMicrochipRegistry.Models.UserRole
+- uid: NationalMicrochipRegistry.Models.User
+  commentId: T:NationalMicrochipRegistry.Models.User
+  parent: NationalMicrochipRegistry.Models
+  name: User
+  nameWithType: User
+  fullName: NationalMicrochipRegistry.Models.User
+- uid: NationalMicrochipRegistry.Models
+  commentId: N:NationalMicrochipRegistry.Models
+  name: NationalMicrochipRegistry.Models
+  nameWithType: NationalMicrochipRegistry.Models
+  fullName: NationalMicrochipRegistry.Models

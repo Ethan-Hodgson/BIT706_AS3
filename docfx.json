@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../C:\\Users\\ethan\\OneDrive\\Desktop\\Uni\\Degree\\Trimester 3\\BIT706 Programming III\\Assessment 3\\NationalMicrochipRegistry",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "NationalMicrochipRegistry",
+      "_appTitle": "NationalMicrochipRegistry",
+      "_enableSearch": false,
+      "pdf": false
+    }
+  }
+}

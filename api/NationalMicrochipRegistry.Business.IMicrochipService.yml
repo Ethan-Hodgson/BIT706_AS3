@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Business.IMicrochipService
+  commentId: T:NationalMicrochipRegistry.Business.IMicrochipService
+  id: IMicrochipService
+  parent: NationalMicrochipRegistry.Business
+  children:
+  - NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync(System.Int32,System.String)
+  - NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync(System.Int32)
+  - NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync(System.String)
+  - NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync(System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IMicrochipService
+  nameWithType: IMicrochipService
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService
+  type: Interface
+  source:
+    remote:
+      path: Business/IMicrochipService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: IMicrochipService
+    path: Business/IMicrochipService.cs
+    startLine: 5
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: public interface IMicrochipService
+    content.vb: Public Interface IMicrochipService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync(System.Int32,System.Int32,System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync(System.Int32,System.Int32,System.Int32)
+  id: GenerateMicrochipsAsync(System.Int32,System.Int32,System.Int32)
+  parent: NationalMicrochipRegistry.Business.IMicrochipService
+  langs:
+  - csharp
+  - vb
+  name: GenerateMicrochipsAsync(Int32, Int32, Int32)
+  nameWithType: IMicrochipService.GenerateMicrochipsAsync(Int32, Int32, Int32)
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Business/IMicrochipService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: GenerateMicrochipsAsync
+    path: Business/IMicrochipService.cs
+    startLine: 7
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task GenerateMicrochipsAsync(int startCode, int count, int clinicId)
+    parameters:
+    - id: startCode
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    - id: clinicId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function GenerateMicrochipsAsync(startCode As Integer, count As Integer, clinicId As Integer) As Task
+  overload: NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync*
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync(System.Int32,System.String)
+  commentId: M:NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync(System.Int32,System.String)
+  id: AssignAnimalToMicrochipAsync(System.Int32,System.String)
+  parent: NationalMicrochipRegistry.Business.IMicrochipService
+  langs:
+  - csharp
+  - vb
+  name: AssignAnimalToMicrochipAsync(Int32, String)
+  nameWithType: IMicrochipService.AssignAnimalToMicrochipAsync(Int32, String)
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: Business/IMicrochipService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: AssignAnimalToMicrochipAsync
+    path: Business/IMicrochipService.cs
+    startLine: 8
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task AssignAnimalToMicrochipAsync(int animalId, string microchipCode)
+    parameters:
+    - id: animalId
+      type: System.Int32
+    - id: microchipCode
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AssignAnimalToMicrochipAsync(animalId As Integer, microchipCode As String) As Task
+  overload: NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync*
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync(System.Int32)
+  id: DeleteMicrochipAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Business.IMicrochipService
+  langs:
+  - csharp
+  - vb
+  name: DeleteMicrochipAsync(Int32)
+  nameWithType: IMicrochipService.DeleteMicrochipAsync(Int32)
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Business/IMicrochipService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: DeleteMicrochipAsync
+    path: Business/IMicrochipService.cs
+    startLine: 9
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task DeleteMicrochipAsync(int microchipId)
+    parameters:
+    - id: microchipId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteMicrochipAsync(microchipId As Integer) As Task
+  overload: NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync*
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync(System.String)
+  commentId: M:NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync(System.String)
+  id: FindAnimalByChipCodeAsync(System.String)
+  parent: NationalMicrochipRegistry.Business.IMicrochipService
+  langs:
+  - csharp
+  - vb
+  name: FindAnimalByChipCodeAsync(String)
+  nameWithType: IMicrochipService.FindAnimalByChipCodeAsync(String)
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: Business/IMicrochipService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: FindAnimalByChipCodeAsync
+    path: Business/IMicrochipService.cs
+    startLine: 10
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task<Animal> FindAnimalByChipCodeAsync(string microchipCode)
+    parameters:
+    - id: microchipCode
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Animal}
+    content.vb: Function FindAnimalByChipCodeAsync(microchipCode As String) As Task(Of Animal)
+  overload: NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync*
+references:
+- uid: NationalMicrochipRegistry.Business
+  commentId: N:NationalMicrochipRegistry.Business
+  name: NationalMicrochipRegistry.Business
+  nameWithType: NationalMicrochipRegistry.Business
+  fullName: NationalMicrochipRegistry.Business
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync
+  name: GenerateMicrochipsAsync
+  nameWithType: IMicrochipService.GenerateMicrochipsAsync
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.GenerateMicrochipsAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync
+  name: AssignAnimalToMicrochipAsync
+  nameWithType: IMicrochipService.AssignAnimalToMicrochipAsync
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.AssignAnimalToMicrochipAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync
+  name: DeleteMicrochipAsync
+  nameWithType: IMicrochipService.DeleteMicrochipAsync
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.DeleteMicrochipAsync
+- uid: NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync
+  name: FindAnimalByChipCodeAsync
+  nameWithType: IMicrochipService.FindAnimalByChipCodeAsync
+  fullName: NationalMicrochipRegistry.Business.IMicrochipService.FindAnimalByChipCodeAsync
+- uid: System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Animal}
+  commentId: T:System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Animal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Animal>
+  nameWithType: Task<Animal>
+  fullName: System.Threading.Tasks.Task<NationalMicrochipRegistry.Models.Animal>
+  nameWithType.vb: Task(Of Animal)
+  fullName.vb: System.Threading.Tasks.Task(Of NationalMicrochipRegistry.Models.Animal)
+  name.vb: Task(Of Animal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: NationalMicrochipRegistry.Models.Animal
+    name: Animal
+    nameWithType: Animal
+    fullName: NationalMicrochipRegistry.Models.Animal
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: NationalMicrochipRegistry.Models.Animal
+    name: Animal
+    nameWithType: Animal
+    fullName: NationalMicrochipRegistry.Models.Animal
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )

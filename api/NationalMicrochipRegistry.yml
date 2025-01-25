@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry
+  commentId: N:NationalMicrochipRegistry
+  id: NationalMicrochipRegistry
+  children:
+  - NationalMicrochipRegistry.App
+  - NationalMicrochipRegistry.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: NationalMicrochipRegistry
+  nameWithType: NationalMicrochipRegistry
+  fullName: NationalMicrochipRegistry
+  type: Namespace
+  assemblies:
+  - NationalMicrochipRegistry
+references:
+- uid: NationalMicrochipRegistry.App
+  commentId: T:NationalMicrochipRegistry.App
+  name: App
+  nameWithType: App
+  fullName: NationalMicrochipRegistry.App
+- uid: NationalMicrochipRegistry.MainWindow
+  commentId: T:NationalMicrochipRegistry.MainWindow
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: NationalMicrochipRegistry.MainWindow

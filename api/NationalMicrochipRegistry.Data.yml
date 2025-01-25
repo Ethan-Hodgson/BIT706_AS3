@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Data
+  commentId: N:NationalMicrochipRegistry.Data
+  id: NationalMicrochipRegistry.Data
+  children:
+  - NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+  - NationalMicrochipRegistry.Data.IAnimalRepository
+  - NationalMicrochipRegistry.Data.IClinicRepository
+  - NationalMicrochipRegistry.Data.IMicrochipRepository
+  - NationalMicrochipRegistry.Data.IRepository`1
+  - NationalMicrochipRegistry.Data.IUserRepository
+  langs:
+  - csharp
+  - vb
+  name: NationalMicrochipRegistry.Data
+  nameWithType: NationalMicrochipRegistry.Data
+  fullName: NationalMicrochipRegistry.Data
+  type: Namespace
+  assemblies:
+  - NationalMicrochipRegistry
+references:
+- uid: NationalMicrochipRegistry.Data.IAnimalRepository
+  commentId: T:NationalMicrochipRegistry.Data.IAnimalRepository
+  parent: NationalMicrochipRegistry.Data
+  name: IAnimalRepository
+  nameWithType: IAnimalRepository
+  fullName: NationalMicrochipRegistry.Data.IAnimalRepository
+- uid: NationalMicrochipRegistry.Data.IClinicRepository
+  commentId: T:NationalMicrochipRegistry.Data.IClinicRepository
+  parent: NationalMicrochipRegistry.Data
+  name: IClinicRepository
+  nameWithType: IClinicRepository
+  fullName: NationalMicrochipRegistry.Data.IClinicRepository
+- uid: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+  commentId: T:NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+  name: DesignTimeRegistryDbContextFactory
+  nameWithType: DesignTimeRegistryDbContextFactory
+  fullName: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+- uid: NationalMicrochipRegistry.Data.IMicrochipRepository
+  commentId: T:NationalMicrochipRegistry.Data.IMicrochipRepository
+  parent: NationalMicrochipRegistry.Data
+  name: IMicrochipRepository
+  nameWithType: IMicrochipRepository
+  fullName: NationalMicrochipRegistry.Data.IMicrochipRepository
+- uid: NationalMicrochipRegistry.Data.IRepository`1
+  commentId: T:NationalMicrochipRegistry.Data.IRepository`1
+  name: IRepository<T>
+  nameWithType: IRepository<T>
+  fullName: NationalMicrochipRegistry.Data.IRepository<T>
+  nameWithType.vb: IRepository(Of T)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of T)
+  name.vb: IRepository(Of T)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1
+    name: IRepository
+    nameWithType: IRepository
+    fullName: NationalMicrochipRegistry.Data.IRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1
+    name: IRepository
+    nameWithType: IRepository
+    fullName: NationalMicrochipRegistry.Data.IRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IUserRepository
+  commentId: T:NationalMicrochipRegistry.Data.IUserRepository
+  parent: NationalMicrochipRegistry.Data
+  name: IUserRepository
+  nameWithType: IUserRepository
+  fullName: NationalMicrochipRegistry.Data.IUserRepository
+- uid: NationalMicrochipRegistry.Data
+  commentId: N:NationalMicrochipRegistry.Data
+  name: NationalMicrochipRegistry.Data
+  nameWithType: NationalMicrochipRegistry.Data
+  fullName: NationalMicrochipRegistry.Data

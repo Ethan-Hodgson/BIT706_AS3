@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Data.IMicrochipRepository
+  commentId: T:NationalMicrochipRegistry.Data.IMicrochipRepository
+  id: IMicrochipRepository
+  parent: NationalMicrochipRegistry.Data
+  children:
+  - NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMicrochipRepository
+  nameWithType: IMicrochipRepository
+  fullName: NationalMicrochipRegistry.Data.IMicrochipRepository
+  type: Interface
+  source:
+    remote:
+      path: Data/IMicrochipRepository.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: IMicrochipRepository
+    path: Data/IMicrochipRepository.cs
+    startLine: 8
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Data
+  summary: "\nInterface for managing microchip-related data operations.\n"
+  example: []
+  syntax:
+    content: 'public interface IMicrochipRepository : IRepository<Microchip>'
+    content.vb: >-
+      Public Interface IMicrochipRepository
+          Inherits IRepository(Of Microchip)
+  inheritedMembers:
+  - NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.GetAllAsync
+  - NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.GetByIdAsync(System.Int32)
+  - NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.AddAsync(NationalMicrochipRegistry.Models.Microchip)
+  - NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.UpdateAsync(NationalMicrochipRegistry.Models.Microchip)
+  - NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.DeleteAsync(System.Int32)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync(System.String)
+  commentId: M:NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync(System.String)
+  id: GetByCodeAsync(System.String)
+  parent: NationalMicrochipRegistry.Data.IMicrochipRepository
+  langs:
+  - csharp
+  - vb
+  name: GetByCodeAsync(String)
+  nameWithType: IMicrochipRepository.GetByCodeAsync(String)
+  fullName: NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: Data/IMicrochipRepository.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: GetByCodeAsync
+    path: Data/IMicrochipRepository.cs
+    startLine: 15
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Data
+  summary: "\nRetrieves a microchip by its unique code.\n"
+  example: []
+  syntax:
+    content: Task<Microchip> GetByCodeAsync(string code)
+    parameters:
+    - id: code
+      type: System.String
+      description: The unique microchip code.
+    return:
+      type: System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Microchip}
+      description: The microchip, or <code>null</code> if not found.
+    content.vb: Function GetByCodeAsync(code As String) As Task(Of Microchip)
+  overload: NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync*
+references:
+- uid: NationalMicrochipRegistry.Data
+  commentId: N:NationalMicrochipRegistry.Data
+  name: NationalMicrochipRegistry.Data
+  nameWithType: NationalMicrochipRegistry.Data
+  fullName: NationalMicrochipRegistry.Data
+- uid: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.GetAllAsync
+  commentId: M:NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.GetAllAsync
+  parent: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}
+  definition: NationalMicrochipRegistry.Data.IRepository`1.GetAllAsync
+  name: GetAllAsync()
+  nameWithType: IRepository<Microchip>.GetAllAsync()
+  fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.GetAllAsync()
+  nameWithType.vb: IRepository(Of Microchip).GetAllAsync()
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).GetAllAsync()
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetAllAsync
+    name: GetAllAsync
+    nameWithType: IRepository<Microchip>.GetAllAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.GetAllAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetAllAsync
+    name: GetAllAsync
+    nameWithType: IRepository(Of Microchip).GetAllAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).GetAllAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.GetByIdAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.GetByIdAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}
+  definition: NationalMicrochipRegistry.Data.IRepository`1.GetByIdAsync(System.Int32)
+  name: GetByIdAsync(Int32)
+  nameWithType: IRepository<Microchip>.GetByIdAsync(Int32)
+  fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.GetByIdAsync(System.Int32)
+  nameWithType.vb: IRepository(Of Microchip).GetByIdAsync(Int32)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).GetByIdAsync(System.Int32)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetByIdAsync(System.Int32)
+    name: GetByIdAsync
+    nameWithType: IRepository<Microchip>.GetByIdAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.GetByIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetByIdAsync(System.Int32)
+    name: GetByIdAsync
+    nameWithType: IRepository(Of Microchip).GetByIdAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).GetByIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.AddAsync(NationalMicrochipRegistry.Models.Microchip)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.AddAsync(NationalMicrochipRegistry.Models.Microchip)
+  parent: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}
+  definition: NationalMicrochipRegistry.Data.IRepository`1.AddAsync(`0)
+  name: AddAsync(Microchip)
+  nameWithType: IRepository<Microchip>.AddAsync(Microchip)
+  fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.AddAsync(NationalMicrochipRegistry.Models.Microchip)
+  nameWithType.vb: IRepository(Of Microchip).AddAsync(Microchip)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).AddAsync(NationalMicrochipRegistry.Models.Microchip)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.AddAsync(`0)
+    name: AddAsync
+    nameWithType: IRepository<Microchip>.AddAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.AddAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.AddAsync(`0)
+    name: AddAsync
+    nameWithType: IRepository(Of Microchip).AddAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).AddAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.UpdateAsync(NationalMicrochipRegistry.Models.Microchip)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.UpdateAsync(NationalMicrochipRegistry.Models.Microchip)
+  parent: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}
+  definition: NationalMicrochipRegistry.Data.IRepository`1.UpdateAsync(`0)
+  name: UpdateAsync(Microchip)
+  nameWithType: IRepository<Microchip>.UpdateAsync(Microchip)
+  fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.UpdateAsync(NationalMicrochipRegistry.Models.Microchip)
+  nameWithType.vb: IRepository(Of Microchip).UpdateAsync(Microchip)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).UpdateAsync(NationalMicrochipRegistry.Models.Microchip)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: IRepository<Microchip>.UpdateAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.UpdateAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: IRepository(Of Microchip).UpdateAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).UpdateAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.DeleteAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}.DeleteAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}
+  definition: NationalMicrochipRegistry.Data.IRepository`1.DeleteAsync(System.Int32)
+  name: DeleteAsync(Int32)
+  nameWithType: IRepository<Microchip>.DeleteAsync(Int32)
+  fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.DeleteAsync(System.Int32)
+  nameWithType.vb: IRepository(Of Microchip).DeleteAsync(Int32)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).DeleteAsync(System.Int32)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.DeleteAsync(System.Int32)
+    name: DeleteAsync
+    nameWithType: IRepository<Microchip>.DeleteAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>.DeleteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.DeleteAsync(System.Int32)
+    name: DeleteAsync
+    nameWithType: IRepository(Of Microchip).DeleteAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip).DeleteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository`1.GetAllAsync
+  commentId: M:NationalMicrochipRegistry.Data.IRepository`1.GetAllAsync
+  name: GetAllAsync()
+  nameWithType: IRepository<T>.GetAllAsync()
+  fullName: NationalMicrochipRegistry.Data.IRepository<T>.GetAllAsync()
+  nameWithType.vb: IRepository(Of T).GetAllAsync()
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of T).GetAllAsync()
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetAllAsync
+    name: GetAllAsync
+    nameWithType: IRepository<T>.GetAllAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<T>.GetAllAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetAllAsync
+    name: GetAllAsync
+    nameWithType: IRepository(Of T).GetAllAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of T).GetAllAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}
+  commentId: T:NationalMicrochipRegistry.Data.IRepository{NationalMicrochipRegistry.Models.Microchip}
+  parent: NationalMicrochipRegistry.Data
+  definition: NationalMicrochipRegistry.Data.IRepository`1
+  name: IRepository<Microchip>
+  nameWithType: IRepository<Microchip>
+  fullName: NationalMicrochipRegistry.Data.IRepository<NationalMicrochipRegistry.Models.Microchip>
+  nameWithType.vb: IRepository(Of Microchip)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of NationalMicrochipRegistry.Models.Microchip)
+  name.vb: IRepository(Of Microchip)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1
+    name: IRepository
+    nameWithType: IRepository
+    fullName: NationalMicrochipRegistry.Data.IRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1
+    name: IRepository
+    nameWithType: IRepository
+    fullName: NationalMicrochipRegistry.Data.IRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository`1.GetByIdAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository`1.GetByIdAsync(System.Int32)
+  isExternal: true
+  name: GetByIdAsync(Int32)
+  nameWithType: IRepository<T>.GetByIdAsync(Int32)
+  fullName: NationalMicrochipRegistry.Data.IRepository<T>.GetByIdAsync(System.Int32)
+  nameWithType.vb: IRepository(Of T).GetByIdAsync(Int32)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of T).GetByIdAsync(System.Int32)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetByIdAsync(System.Int32)
+    name: GetByIdAsync
+    nameWithType: IRepository<T>.GetByIdAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<T>.GetByIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.GetByIdAsync(System.Int32)
+    name: GetByIdAsync
+    nameWithType: IRepository(Of T).GetByIdAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of T).GetByIdAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository`1.AddAsync(`0)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository`1.AddAsync(`0)
+  name: AddAsync(T)
+  nameWithType: IRepository<T>.AddAsync(T)
+  fullName: NationalMicrochipRegistry.Data.IRepository<T>.AddAsync(T)
+  nameWithType.vb: IRepository(Of T).AddAsync(T)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of T).AddAsync(T)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.AddAsync(`0)
+    name: AddAsync
+    nameWithType: IRepository<T>.AddAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<T>.AddAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.AddAsync(`0)
+    name: AddAsync
+    nameWithType: IRepository(Of T).AddAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of T).AddAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository`1.UpdateAsync(`0)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository`1.UpdateAsync(`0)
+  name: UpdateAsync(T)
+  nameWithType: IRepository<T>.UpdateAsync(T)
+  fullName: NationalMicrochipRegistry.Data.IRepository<T>.UpdateAsync(T)
+  nameWithType.vb: IRepository(Of T).UpdateAsync(T)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of T).UpdateAsync(T)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: IRepository<T>.UpdateAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<T>.UpdateAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.UpdateAsync(`0)
+    name: UpdateAsync
+    nameWithType: IRepository(Of T).UpdateAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of T).UpdateAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository`1.DeleteAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Data.IRepository`1.DeleteAsync(System.Int32)
+  isExternal: true
+  name: DeleteAsync(Int32)
+  nameWithType: IRepository<T>.DeleteAsync(Int32)
+  fullName: NationalMicrochipRegistry.Data.IRepository<T>.DeleteAsync(System.Int32)
+  nameWithType.vb: IRepository(Of T).DeleteAsync(Int32)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of T).DeleteAsync(System.Int32)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.DeleteAsync(System.Int32)
+    name: DeleteAsync
+    nameWithType: IRepository<T>.DeleteAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository<T>.DeleteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1.DeleteAsync(System.Int32)
+    name: DeleteAsync
+    nameWithType: IRepository(Of T).DeleteAsync
+    fullName: NationalMicrochipRegistry.Data.IRepository(Of T).DeleteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IRepository`1
+  commentId: T:NationalMicrochipRegistry.Data.IRepository`1
+  name: IRepository<T>
+  nameWithType: IRepository<T>
+  fullName: NationalMicrochipRegistry.Data.IRepository<T>
+  nameWithType.vb: IRepository(Of T)
+  fullName.vb: NationalMicrochipRegistry.Data.IRepository(Of T)
+  name.vb: IRepository(Of T)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1
+    name: IRepository
+    nameWithType: IRepository
+    fullName: NationalMicrochipRegistry.Data.IRepository
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Data.IRepository`1
+    name: IRepository
+    nameWithType: IRepository
+    fullName: NationalMicrochipRegistry.Data.IRepository
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync*
+  commentId: Overload:NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync
+  name: GetByCodeAsync
+  nameWithType: IMicrochipRepository.GetByCodeAsync
+  fullName: NationalMicrochipRegistry.Data.IMicrochipRepository.GetByCodeAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Microchip}
+  commentId: T:System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Microchip}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Microchip>
+  nameWithType: Task<Microchip>
+  fullName: System.Threading.Tasks.Task<NationalMicrochipRegistry.Models.Microchip>
+  nameWithType.vb: Task(Of Microchip)
+  fullName.vb: System.Threading.Tasks.Task(Of NationalMicrochipRegistry.Models.Microchip)
+  name.vb: Task(Of Microchip)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+    nameWithType: Microchip
+    fullName: NationalMicrochipRegistry.Models.Microchip
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

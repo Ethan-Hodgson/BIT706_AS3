@@ -1,0 +1,595 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Models.Animal
+  commentId: T:NationalMicrochipRegistry.Models.Animal
+  id: Animal
+  parent: NationalMicrochipRegistry.Models
+  children:
+  - NationalMicrochipRegistry.Models.Animal.AnimalId
+  - NationalMicrochipRegistry.Models.Animal.Microchip
+  - NationalMicrochipRegistry.Models.Animal.MicrochipId
+  langs:
+  - csharp
+  - vb
+  name: Animal
+  nameWithType: Animal
+  fullName: NationalMicrochipRegistry.Models.Animal
+  type: Class
+  source:
+    remote:
+      path: Models/Animal.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: Animal
+    path: Models/Animal.cs
+    startLine: 5
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: >-
+      [Table("Animals")]
+
+      public class Animal
+    content.vb: >-
+      <Table("Animals")>
+
+      Public Class Animal
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.TableAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.TableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Animals
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NationalMicrochipRegistry.Models.Animal.AnimalId
+  commentId: P:NationalMicrochipRegistry.Models.Animal.AnimalId
+  id: AnimalId
+  parent: NationalMicrochipRegistry.Models.Animal
+  langs:
+  - csharp
+  - vb
+  name: AnimalId
+  nameWithType: Animal.AnimalId
+  fullName: NationalMicrochipRegistry.Models.Animal.AnimalId
+  type: Property
+  source:
+    remote:
+      path: Models/Animal.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: AnimalId
+    path: Models/Animal.cs
+    startLine: 8
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: >-
+      [Key]
+
+      public int AnimalId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Key>
+
+      Public Property AnimalId As Integer
+  overload: NationalMicrochipRegistry.Models.Animal.AnimalId*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.KeyAttribute
+    ctor: System.ComponentModel.DataAnnotations.KeyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NationalMicrochipRegistry.Models.Animal.MicrochipId
+  commentId: P:NationalMicrochipRegistry.Models.Animal.MicrochipId
+  id: MicrochipId
+  parent: NationalMicrochipRegistry.Models.Animal
+  langs:
+  - csharp
+  - vb
+  name: MicrochipId
+  nameWithType: Animal.MicrochipId
+  fullName: NationalMicrochipRegistry.Models.Animal.MicrochipId
+  type: Property
+  source:
+    remote:
+      path: Models/Animal.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: MicrochipId
+    path: Models/Animal.cs
+    startLine: 20
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: public int? MicrochipId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property MicrochipId As Integer?
+  overload: NationalMicrochipRegistry.Models.Animal.MicrochipId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: NationalMicrochipRegistry.Models.Animal.Microchip
+  commentId: P:NationalMicrochipRegistry.Models.Animal.Microchip
+  id: Microchip
+  parent: NationalMicrochipRegistry.Models.Animal
+  langs:
+  - csharp
+  - vb
+  name: Microchip
+  nameWithType: Animal.Microchip
+  fullName: NationalMicrochipRegistry.Models.Animal.Microchip
+  type: Property
+  source:
+    remote:
+      path: Models/Animal.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: Microchip
+    path: Models/Animal.cs
+    startLine: 22
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: >-
+      [ForeignKey("MicrochipId")]
+
+      public Microchip Microchip { get; set; }
+    parameters: []
+    return:
+      type: NationalMicrochipRegistry.Models.Microchip
+    content.vb: >-
+      <ForeignKey("MicrochipId")>
+
+      Public Property Microchip As Microchip
+  overload: NationalMicrochipRegistry.Models.Animal.Microchip*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MicrochipId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: NationalMicrochipRegistry.Models
+  commentId: N:NationalMicrochipRegistry.Models
+  name: NationalMicrochipRegistry.Models
+  nameWithType: NationalMicrochipRegistry.Models
+  fullName: NationalMicrochipRegistry.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NationalMicrochipRegistry.Models.Animal.AnimalId*
+  commentId: Overload:NationalMicrochipRegistry.Models.Animal.AnimalId
+  name: AnimalId
+  nameWithType: Animal.AnimalId
+  fullName: NationalMicrochipRegistry.Models.Animal.AnimalId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: NationalMicrochipRegistry.Models.Animal.MicrochipId*
+  commentId: Overload:NationalMicrochipRegistry.Models.Animal.MicrochipId
+  name: MicrochipId
+  nameWithType: Animal.MicrochipId
+  fullName: NationalMicrochipRegistry.Models.Animal.MicrochipId
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Models.Animal.Microchip*
+  commentId: Overload:NationalMicrochipRegistry.Models.Animal.Microchip
+  name: Microchip
+  nameWithType: Animal.Microchip
+  fullName: NationalMicrochipRegistry.Models.Animal.Microchip
+- uid: NationalMicrochipRegistry.Models.Microchip
+  commentId: T:NationalMicrochipRegistry.Models.Microchip
+  parent: NationalMicrochipRegistry.Models
+  name: Microchip
+  nameWithType: Microchip
+  fullName: NationalMicrochipRegistry.Models.Microchip

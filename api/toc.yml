@@ -1,0 +1,58 @@
+### YamlMime:TableOfContent
+- uid: NationalMicrochipRegistry
+  name: NationalMicrochipRegistry
+  items:
+  - uid: NationalMicrochipRegistry.App
+    name: App
+  - uid: NationalMicrochipRegistry.MainWindow
+    name: MainWindow
+- uid: NationalMicrochipRegistry.Business
+  name: NationalMicrochipRegistry.Business
+  items:
+  - uid: NationalMicrochipRegistry.Business.AnimalService
+    name: AnimalService
+  - uid: NationalMicrochipRegistry.Business.ClinicService
+    name: ClinicService
+  - uid: NationalMicrochipRegistry.Business.IAnimalService
+    name: IAnimalService
+  - uid: NationalMicrochipRegistry.Business.IClinicService
+    name: IClinicService
+  - uid: NationalMicrochipRegistry.Business.IMicrochipService
+    name: IMicrochipService
+  - uid: NationalMicrochipRegistry.Business.IUserService
+    name: IUserService
+  - uid: NationalMicrochipRegistry.Business.MicrochipService
+    name: MicrochipService
+  - uid: NationalMicrochipRegistry.Business.UserService
+    name: UserService
+- uid: NationalMicrochipRegistry.Data
+  name: NationalMicrochipRegistry.Data
+  items:
+  - uid: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+    name: DesignTimeRegistryDbContextFactory
+  - uid: NationalMicrochipRegistry.Data.IAnimalRepository
+    name: IAnimalRepository
+  - uid: NationalMicrochipRegistry.Data.IClinicRepository
+    name: IClinicRepository
+  - uid: NationalMicrochipRegistry.Data.IMicrochipRepository
+    name: IMicrochipRepository
+  - uid: NationalMicrochipRegistry.Data.IRepository`1
+    name: IRepository<T>
+    name.vb: IRepository(Of T)
+  - uid: NationalMicrochipRegistry.Data.IUserRepository
+    name: IUserRepository
+- uid: NationalMicrochipRegistry.Models
+  name: NationalMicrochipRegistry.Models
+  items:
+  - uid: NationalMicrochipRegistry.Models.Animal
+    name: Animal
+  - uid: NationalMicrochipRegistry.Models.Clinic
+    name: Clinic
+  - uid: NationalMicrochipRegistry.Models.Microchip
+    name: Microchip
+  - uid: NationalMicrochipRegistry.Models.RegistryDbContext
+    name: RegistryDbContext
+  - uid: NationalMicrochipRegistry.Models.User
+    name: User
+  - uid: NationalMicrochipRegistry.Models.UserRole
+    name: UserRole

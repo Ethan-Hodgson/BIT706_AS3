@@ -1,0 +1,317 @@
+{
+  "source_base_path": "C:/Users/ethan/OneDrive/Desktop/Uni/Degree/Trimester 3/BIT706 Prgramming III/Assessment 3/NationalMicrochipRegistry/NationalMicrochipRegistry",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.AnimalService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.AnimalService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.ClinicService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.ClinicService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.IAnimalService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.IAnimalService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.IClinicService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.IClinicService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.IMicrochipService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.IMicrochipService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.IUserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.MicrochipService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.MicrochipService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.UserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Business.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Business.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Data.IAnimalRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Data.IAnimalRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Data.IClinicRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Data.IClinicRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Data.IMicrochipRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Data.IMicrochipRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Data.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Data.IRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Data.IUserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Data.IUserRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.MainWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Models.Animal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Models.Animal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Models.Clinic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Models.Clinic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Models.Microchip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Models.Microchip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Models.RegistryDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Models.RegistryDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Models.User.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Models.UserRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Models.UserRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NationalMicrochipRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NationalMicrochipRegistry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

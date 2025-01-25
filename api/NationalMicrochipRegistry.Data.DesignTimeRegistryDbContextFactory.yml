@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+  commentId: T:NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+  id: DesignTimeRegistryDbContextFactory
+  parent: NationalMicrochipRegistry.Data
+  children:
+  - NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: DesignTimeRegistryDbContextFactory
+  nameWithType: DesignTimeRegistryDbContextFactory
+  fullName: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+  type: Class
+  source:
+    remote:
+      path: Data/IDesignTimeDbContextFactory.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: DesignTimeRegistryDbContextFactory
+    path: Data/IDesignTimeDbContextFactory.cs
+    startLine: 7
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Data
+  syntax:
+    content: 'public class DesignTimeRegistryDbContextFactory : IDesignTimeDbContextFactory<RegistryDbContext>'
+    content.vb: >-
+      Public Class DesignTimeRegistryDbContextFactory
+          Implements IDesignTimeDbContextFactory(Of RegistryDbContext)
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory{NationalMicrochipRegistry.Models.RegistryDbContext}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext(System.String[])
+  commentId: M:NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext(System.String[])
+  id: CreateDbContext(System.String[])
+  parent: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDbContext(String[])
+  nameWithType: DesignTimeRegistryDbContextFactory.CreateDbContext(String[])
+  fullName: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Data/IDesignTimeDbContextFactory.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: CreateDbContext
+    path: Data/IDesignTimeDbContextFactory.cs
+    startLine: 10
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Data
+  syntax:
+    content: public RegistryDbContext CreateDbContext(string[] args)
+    parameters:
+    - id: args
+      type: System.String[]
+    return:
+      type: NationalMicrochipRegistry.Models.RegistryDbContext
+    content.vb: Public Function CreateDbContext(args As String()) As RegistryDbContext
+  overload: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext*
+  implements:
+  - Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory{NationalMicrochipRegistry.Models.RegistryDbContext}.CreateDbContext(System.String[])
+  nameWithType.vb: DesignTimeRegistryDbContextFactory.CreateDbContext(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext(System.String())
+  name.vb: CreateDbContext(String())
+references:
+- uid: NationalMicrochipRegistry.Data
+  commentId: N:NationalMicrochipRegistry.Data
+  name: NationalMicrochipRegistry.Data
+  nameWithType: NationalMicrochipRegistry.Data
+  fullName: NationalMicrochipRegistry.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory{NationalMicrochipRegistry.Models.RegistryDbContext}
+  commentId: T:Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory{NationalMicrochipRegistry.Models.RegistryDbContext}
+  parent: Microsoft.EntityFrameworkCore.Design
+  definition: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1
+  name: IDesignTimeDbContextFactory<RegistryDbContext>
+  nameWithType: IDesignTimeDbContextFactory<RegistryDbContext>
+  fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory<NationalMicrochipRegistry.Models.RegistryDbContext>
+  nameWithType.vb: IDesignTimeDbContextFactory(Of RegistryDbContext)
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory(Of NationalMicrochipRegistry.Models.RegistryDbContext)
+  name.vb: IDesignTimeDbContextFactory(Of RegistryDbContext)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1
+    name: IDesignTimeDbContextFactory
+    nameWithType: IDesignTimeDbContextFactory
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: NationalMicrochipRegistry.Models.RegistryDbContext
+    name: RegistryDbContext
+    nameWithType: RegistryDbContext
+    fullName: NationalMicrochipRegistry.Models.RegistryDbContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1
+    name: IDesignTimeDbContextFactory
+    nameWithType: IDesignTimeDbContextFactory
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: NationalMicrochipRegistry.Models.RegistryDbContext
+    name: RegistryDbContext
+    nameWithType: RegistryDbContext
+    fullName: NationalMicrochipRegistry.Models.RegistryDbContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1
+  commentId: T:Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1
+  isExternal: true
+  name: IDesignTimeDbContextFactory<TContext>
+  nameWithType: IDesignTimeDbContextFactory<TContext>
+  fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory<TContext>
+  nameWithType.vb: IDesignTimeDbContextFactory(Of TContext)
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory(Of TContext)
+  name.vb: IDesignTimeDbContextFactory(Of TContext)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1
+    name: IDesignTimeDbContextFactory
+    nameWithType: IDesignTimeDbContextFactory
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1
+    name: IDesignTimeDbContextFactory
+    nameWithType: IDesignTimeDbContextFactory
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TContext
+    nameWithType: TContext
+    fullName: TContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.Design
+  commentId: N:Microsoft.EntityFrameworkCore.Design
+  isExternal: true
+  name: Microsoft.EntityFrameworkCore.Design
+  nameWithType: Microsoft.EntityFrameworkCore.Design
+  fullName: Microsoft.EntityFrameworkCore.Design
+- uid: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext*
+  commentId: Overload:NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext
+  name: CreateDbContext
+  nameWithType: DesignTimeRegistryDbContextFactory.CreateDbContext
+  fullName: NationalMicrochipRegistry.Data.DesignTimeRegistryDbContextFactory.CreateDbContext
+- uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory{NationalMicrochipRegistry.Models.RegistryDbContext}.CreateDbContext(System.String[])
+  commentId: M:Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory{NationalMicrochipRegistry.Models.RegistryDbContext}.CreateDbContext(System.String[])
+  parent: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory{NationalMicrochipRegistry.Models.RegistryDbContext}
+  definition: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+  name: CreateDbContext(String[])
+  nameWithType: IDesignTimeDbContextFactory<RegistryDbContext>.CreateDbContext(String[])
+  fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory<NationalMicrochipRegistry.Models.RegistryDbContext>.CreateDbContext(System.String[])
+  nameWithType.vb: IDesignTimeDbContextFactory(Of RegistryDbContext).CreateDbContext(String())
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory(Of NationalMicrochipRegistry.Models.RegistryDbContext).CreateDbContext(System.String())
+  name.vb: CreateDbContext(String())
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+    name: CreateDbContext
+    nameWithType: IDesignTimeDbContextFactory<RegistryDbContext>.CreateDbContext
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory<NationalMicrochipRegistry.Models.RegistryDbContext>.CreateDbContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+    name: CreateDbContext
+    nameWithType: IDesignTimeDbContextFactory(Of RegistryDbContext).CreateDbContext
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory(Of NationalMicrochipRegistry.Models.RegistryDbContext).CreateDbContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: NationalMicrochipRegistry.Models.RegistryDbContext
+  commentId: T:NationalMicrochipRegistry.Models.RegistryDbContext
+  parent: NationalMicrochipRegistry.Models
+  name: RegistryDbContext
+  nameWithType: RegistryDbContext
+  fullName: NationalMicrochipRegistry.Models.RegistryDbContext
+- uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+  commentId: M:Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+  isExternal: true
+  name: CreateDbContext(String[])
+  nameWithType: IDesignTimeDbContextFactory<TContext>.CreateDbContext(String[])
+  fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory<TContext>.CreateDbContext(System.String[])
+  nameWithType.vb: IDesignTimeDbContextFactory(Of TContext).CreateDbContext(String())
+  fullName.vb: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory(Of TContext).CreateDbContext(System.String())
+  name.vb: CreateDbContext(String())
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+    name: CreateDbContext
+    nameWithType: IDesignTimeDbContextFactory<TContext>.CreateDbContext
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory<TContext>.CreateDbContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory`1.CreateDbContext(System.String[])
+    name: CreateDbContext
+    nameWithType: IDesignTimeDbContextFactory(Of TContext).CreateDbContext
+    fullName: Microsoft.EntityFrameworkCore.Design.IDesignTimeDbContextFactory(Of TContext).CreateDbContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Models
+  commentId: N:NationalMicrochipRegistry.Models
+  name: NationalMicrochipRegistry.Models
+  nameWithType: NationalMicrochipRegistry.Models
+  fullName: NationalMicrochipRegistry.Models

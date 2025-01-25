@@ -1,0 +1,779 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Business.AnimalService
+  commentId: T:NationalMicrochipRegistry.Business.AnimalService
+  id: AnimalService
+  parent: NationalMicrochipRegistry.Business
+  children:
+  - NationalMicrochipRegistry.Business.AnimalService.#ctor(NationalMicrochipRegistry.Data.IAnimalRepository)
+  - NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+  - NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync(System.Int32)
+  - NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AnimalService
+  nameWithType: AnimalService
+  fullName: NationalMicrochipRegistry.Business.AnimalService
+  type: Class
+  source:
+    remote:
+      path: Business/AnimalService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: AnimalService
+    path: Business/AnimalService.cs
+    startLine: 7
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: 'public class AnimalService : IAnimalService'
+    content.vb: >-
+      Public Class AnimalService
+          Implements IAnimalService
+  inheritance:
+  - System.Object
+  implements:
+  - NationalMicrochipRegistry.Business.IAnimalService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NationalMicrochipRegistry.Business.AnimalService.#ctor(NationalMicrochipRegistry.Data.IAnimalRepository)
+  commentId: M:NationalMicrochipRegistry.Business.AnimalService.#ctor(NationalMicrochipRegistry.Data.IAnimalRepository)
+  id: '#ctor(NationalMicrochipRegistry.Data.IAnimalRepository)'
+  parent: NationalMicrochipRegistry.Business.AnimalService
+  langs:
+  - csharp
+  - vb
+  name: AnimalService(IAnimalRepository)
+  nameWithType: AnimalService.AnimalService(IAnimalRepository)
+  fullName: NationalMicrochipRegistry.Business.AnimalService.AnimalService(NationalMicrochipRegistry.Data.IAnimalRepository)
+  type: Constructor
+  source:
+    remote:
+      path: Business/AnimalService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: .ctor
+    path: Business/AnimalService.cs
+    startLine: 11
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: public AnimalService(IAnimalRepository animalRepository)
+    parameters:
+    - id: animalRepository
+      type: NationalMicrochipRegistry.Data.IAnimalRepository
+    content.vb: Public Sub New(animalRepository As IAnimalRepository)
+  overload: NationalMicrochipRegistry.Business.AnimalService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+  id: AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+  parent: NationalMicrochipRegistry.Business.AnimalService
+  langs:
+  - csharp
+  - vb
+  name: AddAnimalToChipAsync(Animal, Int32)
+  nameWithType: AnimalService.AddAnimalToChipAsync(Animal, Int32)
+  fullName: NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Business/AnimalService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: AddAnimalToChipAsync
+    path: Business/AnimalService.cs
+    startLine: 16
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: public async Task AddAnimalToChipAsync(Animal animal, int microchipId)
+    parameters:
+    - id: animal
+      type: NationalMicrochipRegistry.Models.Animal
+    - id: microchipId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AddAnimalToChipAsync(animal As Animal, microchipId As Integer) As Task
+  overload: NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync*
+  implements:
+  - NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync(System.Int32)
+  id: GetAnimalAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Business.AnimalService
+  langs:
+  - csharp
+  - vb
+  name: GetAnimalAsync(Int32)
+  nameWithType: AnimalService.GetAnimalAsync(Int32)
+  fullName: NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Business/AnimalService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: GetAnimalAsync
+    path: Business/AnimalService.cs
+    startLine: 22
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: public async Task<Animal> GetAnimalAsync(int animalId)
+    parameters:
+    - id: animalId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Animal}
+    content.vb: Public Function GetAnimalAsync(animalId As Integer) As Task(Of Animal)
+  overload: NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync*
+  implements:
+  - NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync(System.Int32)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync(System.Int32)
+  id: RemoveAnimalAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Business.AnimalService
+  langs:
+  - csharp
+  - vb
+  name: RemoveAnimalAsync(Int32)
+  nameWithType: AnimalService.RemoveAnimalAsync(Int32)
+  fullName: NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Business/AnimalService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: RemoveAnimalAsync
+    path: Business/AnimalService.cs
+    startLine: 27
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: public async Task RemoveAnimalAsync(int animalId)
+    parameters:
+    - id: animalId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RemoveAnimalAsync(animalId As Integer) As Task
+  overload: NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync*
+  implements:
+  - NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync(System.Int32)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: NationalMicrochipRegistry.Business
+  commentId: N:NationalMicrochipRegistry.Business
+  name: NationalMicrochipRegistry.Business
+  nameWithType: NationalMicrochipRegistry.Business
+  fullName: NationalMicrochipRegistry.Business
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: NationalMicrochipRegistry.Business.IAnimalService
+  commentId: T:NationalMicrochipRegistry.Business.IAnimalService
+  parent: NationalMicrochipRegistry.Business
+  name: IAnimalService
+  nameWithType: IAnimalService
+  fullName: NationalMicrochipRegistry.Business.IAnimalService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NationalMicrochipRegistry.Business.AnimalService.#ctor*
+  commentId: Overload:NationalMicrochipRegistry.Business.AnimalService.#ctor
+  name: AnimalService
+  nameWithType: AnimalService.AnimalService
+  fullName: NationalMicrochipRegistry.Business.AnimalService.AnimalService
+- uid: NationalMicrochipRegistry.Data.IAnimalRepository
+  commentId: T:NationalMicrochipRegistry.Data.IAnimalRepository
+  parent: NationalMicrochipRegistry.Data
+  name: IAnimalRepository
+  nameWithType: IAnimalRepository
+  fullName: NationalMicrochipRegistry.Data.IAnimalRepository
+- uid: NationalMicrochipRegistry.Data
+  commentId: N:NationalMicrochipRegistry.Data
+  name: NationalMicrochipRegistry.Data
+  nameWithType: NationalMicrochipRegistry.Data
+  fullName: NationalMicrochipRegistry.Data
+- uid: NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync
+  name: AddAnimalToChipAsync
+  nameWithType: AnimalService.AddAnimalToChipAsync
+  fullName: NationalMicrochipRegistry.Business.AnimalService.AddAnimalToChipAsync
+- uid: NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+  parent: NationalMicrochipRegistry.Business.IAnimalService
+  isExternal: true
+  name: AddAnimalToChipAsync(Animal, Int32)
+  nameWithType: IAnimalService.AddAnimalToChipAsync(Animal, Int32)
+  fullName: NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal, System.Int32)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+    name: AddAnimalToChipAsync
+    nameWithType: IAnimalService.AddAnimalToChipAsync
+    fullName: NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NationalMicrochipRegistry.Models.Animal
+    name: Animal
+    nameWithType: Animal
+    fullName: NationalMicrochipRegistry.Models.Animal
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync(NationalMicrochipRegistry.Models.Animal,System.Int32)
+    name: AddAnimalToChipAsync
+    nameWithType: IAnimalService.AddAnimalToChipAsync
+    fullName: NationalMicrochipRegistry.Business.IAnimalService.AddAnimalToChipAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NationalMicrochipRegistry.Models.Animal
+    name: Animal
+    nameWithType: Animal
+    fullName: NationalMicrochipRegistry.Models.Animal
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Models.Animal
+  commentId: T:NationalMicrochipRegistry.Models.Animal
+  parent: NationalMicrochipRegistry.Models
+  name: Animal
+  nameWithType: Animal
+  fullName: NationalMicrochipRegistry.Models.Animal
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: NationalMicrochipRegistry.Models
+  commentId: N:NationalMicrochipRegistry.Models
+  name: NationalMicrochipRegistry.Models
+  nameWithType: NationalMicrochipRegistry.Models
+  fullName: NationalMicrochipRegistry.Models
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync
+  name: GetAnimalAsync
+  nameWithType: AnimalService.GetAnimalAsync
+  fullName: NationalMicrochipRegistry.Business.AnimalService.GetAnimalAsync
+- uid: NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Business.IAnimalService
+  isExternal: true
+  name: GetAnimalAsync(Int32)
+  nameWithType: IAnimalService.GetAnimalAsync(Int32)
+  fullName: NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync(System.Int32)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync(System.Int32)
+    name: GetAnimalAsync
+    nameWithType: IAnimalService.GetAnimalAsync
+    fullName: NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync(System.Int32)
+    name: GetAnimalAsync
+    nameWithType: IAnimalService.GetAnimalAsync
+    fullName: NationalMicrochipRegistry.Business.IAnimalService.GetAnimalAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Animal}
+  commentId: T:System.Threading.Tasks.Task{NationalMicrochipRegistry.Models.Animal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Animal>
+  nameWithType: Task<Animal>
+  fullName: System.Threading.Tasks.Task<NationalMicrochipRegistry.Models.Animal>
+  nameWithType.vb: Task(Of Animal)
+  fullName.vb: System.Threading.Tasks.Task(Of NationalMicrochipRegistry.Models.Animal)
+  name.vb: Task(Of Animal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: NationalMicrochipRegistry.Models.Animal
+    name: Animal
+    nameWithType: Animal
+    fullName: NationalMicrochipRegistry.Models.Animal
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: NationalMicrochipRegistry.Models.Animal
+    name: Animal
+    nameWithType: Animal
+    fullName: NationalMicrochipRegistry.Models.Animal
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync
+  name: RemoveAnimalAsync
+  nameWithType: AnimalService.RemoveAnimalAsync
+  fullName: NationalMicrochipRegistry.Business.AnimalService.RemoveAnimalAsync
+- uid: NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Business.IAnimalService
+  isExternal: true
+  name: RemoveAnimalAsync(Int32)
+  nameWithType: IAnimalService.RemoveAnimalAsync(Int32)
+  fullName: NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync(System.Int32)
+  spec.csharp:
+  - uid: NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync(System.Int32)
+    name: RemoveAnimalAsync
+    nameWithType: IAnimalService.RemoveAnimalAsync
+    fullName: NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync(System.Int32)
+    name: RemoveAnimalAsync
+    nameWithType: IAnimalService.RemoveAnimalAsync
+    fullName: NationalMicrochipRegistry.Business.IAnimalService.RemoveAnimalAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

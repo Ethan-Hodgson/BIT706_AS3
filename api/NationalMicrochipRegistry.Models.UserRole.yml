@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Models.UserRole
+  commentId: T:NationalMicrochipRegistry.Models.UserRole
+  id: UserRole
+  parent: NationalMicrochipRegistry.Models
+  children:
+  - NationalMicrochipRegistry.Models.UserRole.ClinicStaff
+  - NationalMicrochipRegistry.Models.UserRole.RegistryAdmin
+  - NationalMicrochipRegistry.Models.UserRole.SystemAdmin
+  langs:
+  - csharp
+  - vb
+  name: UserRole
+  nameWithType: UserRole
+  fullName: NationalMicrochipRegistry.Models.UserRole
+  type: Enum
+  source:
+    remote:
+      path: Models/User.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: UserRole
+    path: Models/User.cs
+    startLine: 5
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: public enum UserRole
+    content.vb: Public Enum UserRole
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NationalMicrochipRegistry.Models.UserRole.SystemAdmin
+  commentId: F:NationalMicrochipRegistry.Models.UserRole.SystemAdmin
+  id: SystemAdmin
+  parent: NationalMicrochipRegistry.Models.UserRole
+  langs:
+  - csharp
+  - vb
+  name: SystemAdmin
+  nameWithType: UserRole.SystemAdmin
+  fullName: NationalMicrochipRegistry.Models.UserRole.SystemAdmin
+  type: Field
+  source:
+    remote:
+      path: Models/User.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: SystemAdmin
+    path: Models/User.cs
+    startLine: 7
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: SystemAdmin = 0
+    return:
+      type: NationalMicrochipRegistry.Models.UserRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NationalMicrochipRegistry.Models.UserRole.RegistryAdmin
+  commentId: F:NationalMicrochipRegistry.Models.UserRole.RegistryAdmin
+  id: RegistryAdmin
+  parent: NationalMicrochipRegistry.Models.UserRole
+  langs:
+  - csharp
+  - vb
+  name: RegistryAdmin
+  nameWithType: UserRole.RegistryAdmin
+  fullName: NationalMicrochipRegistry.Models.UserRole.RegistryAdmin
+  type: Field
+  source:
+    remote:
+      path: Models/User.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: RegistryAdmin
+    path: Models/User.cs
+    startLine: 8
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: RegistryAdmin = 1
+    return:
+      type: NationalMicrochipRegistry.Models.UserRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NationalMicrochipRegistry.Models.UserRole.ClinicStaff
+  commentId: F:NationalMicrochipRegistry.Models.UserRole.ClinicStaff
+  id: ClinicStaff
+  parent: NationalMicrochipRegistry.Models.UserRole
+  langs:
+  - csharp
+  - vb
+  name: ClinicStaff
+  nameWithType: UserRole.ClinicStaff
+  fullName: NationalMicrochipRegistry.Models.UserRole.ClinicStaff
+  type: Field
+  source:
+    remote:
+      path: Models/User.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: ClinicStaff
+    path: Models/User.cs
+    startLine: 9
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Models
+  syntax:
+    content: ClinicStaff = 2
+    return:
+      type: NationalMicrochipRegistry.Models.UserRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NationalMicrochipRegistry.Models
+  commentId: N:NationalMicrochipRegistry.Models
+  name: NationalMicrochipRegistry.Models
+  nameWithType: NationalMicrochipRegistry.Models
+  fullName: NationalMicrochipRegistry.Models
+- uid: NationalMicrochipRegistry.Models.UserRole
+  commentId: T:NationalMicrochipRegistry.Models.UserRole
+  parent: NationalMicrochipRegistry.Models
+  name: UserRole
+  nameWithType: UserRole
+  fullName: NationalMicrochipRegistry.Models.UserRole

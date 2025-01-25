@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: NationalMicrochipRegistry.Business.IClinicService
+  commentId: T:NationalMicrochipRegistry.Business.IClinicService
+  id: IClinicService
+  parent: NationalMicrochipRegistry.Business
+  children:
+  - NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  - NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync(System.Int32)
+  - NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync
+  - NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  langs:
+  - csharp
+  - vb
+  name: IClinicService
+  nameWithType: IClinicService
+  fullName: NationalMicrochipRegistry.Business.IClinicService
+  type: Interface
+  source:
+    remote:
+      path: Business/IClinicService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: IClinicService
+    path: Business/IClinicService.cs
+    startLine: 6
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: public interface IClinicService
+    content.vb: Public Interface IClinicService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  commentId: M:NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  id: AddClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  parent: NationalMicrochipRegistry.Business.IClinicService
+  langs:
+  - csharp
+  - vb
+  name: AddClinicAsync(Clinic)
+  nameWithType: IClinicService.AddClinicAsync(Clinic)
+  fullName: NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  type: Method
+  source:
+    remote:
+      path: Business/IClinicService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: AddClinicAsync
+    path: Business/IClinicService.cs
+    startLine: 8
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task AddClinicAsync(Clinic clinic)
+    parameters:
+    - id: clinic
+      type: NationalMicrochipRegistry.Models.Clinic
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddClinicAsync(clinic As Clinic) As Task
+  overload: NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync*
+- uid: NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  commentId: M:NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  id: UpdateClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  parent: NationalMicrochipRegistry.Business.IClinicService
+  langs:
+  - csharp
+  - vb
+  name: UpdateClinicAsync(Clinic)
+  nameWithType: IClinicService.UpdateClinicAsync(Clinic)
+  fullName: NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync(NationalMicrochipRegistry.Models.Clinic)
+  type: Method
+  source:
+    remote:
+      path: Business/IClinicService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: UpdateClinicAsync
+    path: Business/IClinicService.cs
+    startLine: 9
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task UpdateClinicAsync(Clinic clinic)
+    parameters:
+    - id: clinic
+      type: NationalMicrochipRegistry.Models.Clinic
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateClinicAsync(clinic As Clinic) As Task
+  overload: NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync*
+- uid: NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync(System.Int32)
+  commentId: M:NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync(System.Int32)
+  id: DeleteClinicAsync(System.Int32)
+  parent: NationalMicrochipRegistry.Business.IClinicService
+  langs:
+  - csharp
+  - vb
+  name: DeleteClinicAsync(Int32)
+  nameWithType: IClinicService.DeleteClinicAsync(Int32)
+  fullName: NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Business/IClinicService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: DeleteClinicAsync
+    path: Business/IClinicService.cs
+    startLine: 10
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task DeleteClinicAsync(int clinicId)
+    parameters:
+    - id: clinicId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteClinicAsync(clinicId As Integer) As Task
+  overload: NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync*
+- uid: NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync
+  commentId: M:NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync
+  id: GetAllClinicsAsync
+  parent: NationalMicrochipRegistry.Business.IClinicService
+  langs:
+  - csharp
+  - vb
+  name: GetAllClinicsAsync()
+  nameWithType: IClinicService.GetAllClinicsAsync()
+  fullName: NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync()
+  type: Method
+  source:
+    remote:
+      path: Business/IClinicService.cs
+      branch: master
+      repo: https://github.com/Ethan-Hodgson/BIT706_AS3
+    id: GetAllClinicsAsync
+    path: Business/IClinicService.cs
+    startLine: 11
+  assemblies:
+  - NationalMicrochipRegistry
+  namespace: NationalMicrochipRegistry.Business
+  syntax:
+    content: Task<IEnumerable<Clinic>> GetAllClinicsAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{NationalMicrochipRegistry.Models.Clinic}}
+    content.vb: Function GetAllClinicsAsync As Task(Of IEnumerable(Of Clinic))
+  overload: NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync*
+references:
+- uid: NationalMicrochipRegistry.Business
+  commentId: N:NationalMicrochipRegistry.Business
+  name: NationalMicrochipRegistry.Business
+  nameWithType: NationalMicrochipRegistry.Business
+  fullName: NationalMicrochipRegistry.Business
+- uid: NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync
+  name: AddClinicAsync
+  nameWithType: IClinicService.AddClinicAsync
+  fullName: NationalMicrochipRegistry.Business.IClinicService.AddClinicAsync
+- uid: NationalMicrochipRegistry.Models.Clinic
+  commentId: T:NationalMicrochipRegistry.Models.Clinic
+  parent: NationalMicrochipRegistry.Models
+  name: Clinic
+  nameWithType: Clinic
+  fullName: NationalMicrochipRegistry.Models.Clinic
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: NationalMicrochipRegistry.Models
+  commentId: N:NationalMicrochipRegistry.Models
+  name: NationalMicrochipRegistry.Models
+  nameWithType: NationalMicrochipRegistry.Models
+  fullName: NationalMicrochipRegistry.Models
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync
+  name: UpdateClinicAsync
+  nameWithType: IClinicService.UpdateClinicAsync
+  fullName: NationalMicrochipRegistry.Business.IClinicService.UpdateClinicAsync
+- uid: NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync
+  name: DeleteClinicAsync
+  nameWithType: IClinicService.DeleteClinicAsync
+  fullName: NationalMicrochipRegistry.Business.IClinicService.DeleteClinicAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync*
+  commentId: Overload:NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync
+  name: GetAllClinicsAsync
+  nameWithType: IClinicService.GetAllClinicsAsync
+  fullName: NationalMicrochipRegistry.Business.IClinicService.GetAllClinicsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{NationalMicrochipRegistry.Models.Clinic}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{NationalMicrochipRegistry.Models.Clinic}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IEnumerable<Clinic>>
+  nameWithType: Task<IEnumerable<Clinic>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<NationalMicrochipRegistry.Models.Clinic>>
+  nameWithType.vb: Task(Of IEnumerable(Of Clinic))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of NationalMicrochipRegistry.Models.Clinic))
+  name.vb: Task(Of IEnumerable(Of Clinic))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: NationalMicrochipRegistry.Models.Clinic
+    name: Clinic
+    nameWithType: Clinic
+    fullName: NationalMicrochipRegistry.Models.Clinic
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: NationalMicrochipRegistry.Models.Clinic
+    name: Clinic
+    nameWithType: Clinic
+    fullName: NationalMicrochipRegistry.Models.Clinic
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
